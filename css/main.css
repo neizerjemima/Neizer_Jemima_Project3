@@ -32,3 +32,35 @@ p {
     background-color: purple;
     height: 300px;
 }
+
+@media screen and (min-width: 641px) {
+
+    #column {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #column1 {
+        background-color: blue;
+        width: 25%;
+        height: 300px;
+    }
+
+    #column2 {
+        background-color: purple;
+        width: 25%;
+        height: 300px;
+    }
+
+    #column3 {
+        background-color: gray;
+        width: 25%;
+        height: 300px;
+    }
+
+    #column4 {
+        background-color: brown;
+        width: 25%;
+        height: 300px;
+    }
+}
